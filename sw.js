@@ -1,6 +1,6 @@
 self.addEventListener('push', function(e) {
   var options = {
-    body: 'This notification was generated from a push!',
+    body: 'Gorące mamuśki w twojej okolicy!',
     icon: 'images/example.png',
     vibrate: [100, 50, 100],
     data: {
@@ -8,13 +8,13 @@ self.addEventListener('push', function(e) {
       primaryKey: '2'
     },
     actions: [
-      {action: 'explore', title: 'Explore this new world',
+      {action: 'explore', title: 'Kasia wróć do mnie',
         icon: 'images/checkmark.png'},
-      {action: 'close', title: 'Close',
+      {action: 'close', title: 'Małe stopy',
         icon: 'images/xmark.png'},
     ]
   };
   e.waitUntil(
-    self.registration.showNotification('Hello world!', options)
+    self.registration.showNotification('Cycki Dupa!', options)
   );
 });
