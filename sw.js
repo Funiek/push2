@@ -1,6 +1,6 @@
 self.addEventListener('push', function(e) {
   var options = {
-    body: 'Nowe produkty od GAIA',
+    body: 'Biustonosz Semi-Soft Violette',
     icon: 'img/icon.jpg',
     vibrate: [100, 50, 100],
     data: {
