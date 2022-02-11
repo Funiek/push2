@@ -28,4 +28,4 @@ const pushSubscription = {
   },
 };
 
-webpush.sendNotification(pushSubscription, "Cycki Dupa");
+webpush.sendNotification(pushSubscription, "GAIA");
